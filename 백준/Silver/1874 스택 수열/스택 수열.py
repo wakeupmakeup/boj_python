@@ -34,7 +34,7 @@ for num in originSeq:
         print("NO")
         break
 
-
+else: # 주어진 수열을 두 확인한 후 (break 없이 루프를 빠져나온 경우)
     for i in result:
         print(i)
 
