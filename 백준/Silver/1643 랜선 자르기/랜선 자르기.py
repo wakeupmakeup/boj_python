@@ -10,7 +10,7 @@ while start <= end:
     count = 0
 
     for i in cables:
-        count += i // mid
+        count += i // mid # 랜선을 잘라서 나온 개수를 count에 더해줌
 
     if count >= n:
         start = mid + 1 # 오른쪽으로 이동해야 값이 커지니 +1 하는 것
